@@ -193,24 +193,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Marco\\.nuget\\packages\\": {}
+    "C:\\Users\\Samuel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marco\\Desktop\\Workspaces\\speedrun-leaderbord\\Leaderbord\\Leaderbord.csproj",
+      "projectUniqueName": "E:\\dev\\C#\\speedrun-leaderbord\\Leaderbord\\Leaderbord.csproj",
       "projectName": "Leaderbord",
-      "projectPath": "C:\\Users\\Marco\\Desktop\\Workspaces\\speedrun-leaderbord\\Leaderbord\\Leaderbord.csproj",
-      "packagesPath": "C:\\Users\\Marco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marco\\Desktop\\Workspaces\\speedrun-leaderbord\\Leaderbord\\obj\\",
+      "projectPath": "E:\\dev\\C#\\speedrun-leaderbord\\Leaderbord\\Leaderbord.csproj",
+      "packagesPath": "C:\\Users\\Samuel\\.nuget\\packages\\",
+      "outputPath": "E:\\dev\\C#\\speedrun-leaderbord\\Leaderbord\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Samuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
