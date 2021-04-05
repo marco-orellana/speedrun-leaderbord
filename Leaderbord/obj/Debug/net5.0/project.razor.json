@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "FilePath": "e:\\dev\\C#\\speedrun-leaderbord\\Leaderbord\\Leaderbord.csproj",
+=======
+  "FilePath": "c:\\Users\\Marco\\Desktop\\Workspaces\\speedrun-leaderbord\\Leaderbord\\Leaderbord.csproj",
+>>>>>>> c75d12512e3a5e9e81cc095c0974af8e428e3cc2
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
