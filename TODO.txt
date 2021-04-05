@@ -1,0 +1,4 @@
+1. Make model
+2. Make fake values repositery
+3. Make Model Controller
+ 

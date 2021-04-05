@@ -1,0 +1,11 @@
+C:\Users\Marco\Desktop\Workspaces\speedrun-leaderbord\Leaderbord\bin\Debug\net5.0\publish\Leaderbord.exe
+C:\Users\Marco\Desktop\Workspaces\speedrun-leaderbord\Leaderbord\bin\Debug\net5.0\publish\appsettings.Development.json
+C:\Users\Marco\Desktop\Workspaces\speedrun-leaderbord\Leaderbord\bin\Debug\net5.0\publish\appsettings.json
+C:\Users\Marco\Desktop\Workspaces\speedrun-leaderbord\Leaderbord\bin\Debug\net5.0\publish\Leaderbord.dll
+C:\Users\Marco\Desktop\Workspaces\speedrun-leaderbord\Leaderbord\bin\Debug\net5.0\publish\Leaderbord.deps.json
+C:\Users\Marco\Desktop\Workspaces\speedrun-leaderbord\Leaderbord\bin\Debug\net5.0\publish\Leaderbord.runtimeconfig.json
+C:\Users\Marco\Desktop\Workspaces\speedrun-leaderbord\Leaderbord\bin\Debug\net5.0\publish\Leaderbord.pdb
+C:\Users\Marco\Desktop\Workspaces\speedrun-leaderbord\Leaderbord\bin\Debug\net5.0\publish\Microsoft.OpenApi.dll
+C:\Users\Marco\Desktop\Workspaces\speedrun-leaderbord\Leaderbord\bin\Debug\net5.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Marco\Desktop\Workspaces\speedrun-leaderbord\Leaderbord\bin\Debug\net5.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Marco\Desktop\Workspaces\speedrun-leaderbord\Leaderbord\bin\Debug\net5.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
