@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Leaderboard.Models;
 using Leaderbord.Repositories;
@@ -13,7 +14,7 @@ namespace Leaderbord.Controllers
 
         public GamesController()
         {
-            repository = new();
+            repository = GamesList.Instance;
         }
 
         [HttpGet]
@@ -21,6 +22,13 @@ namespace Leaderbord.Controllers
         {
             var games = repository.GetGames();
             return games;
+        }
+
+        [HttpGet("{id}")]
+        public Game GetGame(Guid id)
+        {
+            var game = repository.GetItem(id);
+            return game;
         }
     }
 }
