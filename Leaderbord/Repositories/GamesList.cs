@@ -5,24 +5,8 @@ using System.Linq;
 
 namespace Leaderbord.Repositories
 {
-
-    public class GamesList
+    public class GamesList: IGamesList
     {
-        #region Singleton
-        private static GamesList instance = null;
-
-        public static GamesList Instance
-        {
-            get
-            {
-                if (instance == null)
-                {
-                    instance = new GamesList();
-                }
-                return instance;
-            }
-        }
-        #endregion
         private readonly List<Game> gameList = new()
         {
             new Game { Id = Guid.NewGuid(), Name = "Mario Kart 64", YearOfRelease = 1996 },
@@ -35,7 +19,7 @@ namespace Leaderbord.Repositories
             return gameList;
         }
 
-        public Game GetItem(Guid id)
+        public Game GetGame(Guid id)
         {
             return gameList.Where(game => game.Id == id).SingleOrDefault();
         }

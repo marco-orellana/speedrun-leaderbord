@@ -10,11 +10,11 @@ namespace Leaderbord.Controllers
     [Route("games")]
     public class GamesController : ControllerBase
     {
-        private readonly GamesList repository;
+        private readonly IGamesList repository;
 
-        public GamesController()
+        public GamesController(IGamesList provider)
         {
-            repository = GamesList.Instance;
+            repository = provider;
         }
 
         [HttpGet]
@@ -25,9 +25,13 @@ namespace Leaderbord.Controllers
         }
 
         [HttpGet("{id}")]
-        public Game GetGame(Guid id)
+        public ActionResult<Game> GetGame(Guid id)
         {
-            var game = repository.GetItem(id);
+            var game = repository.GetGame(id);
+            if(game is null)
+            {
+                return NotFound();
+            }
             return game;
         }
     }
