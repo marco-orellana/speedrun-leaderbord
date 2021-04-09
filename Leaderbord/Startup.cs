@@ -33,6 +33,7 @@ namespace Leaderbord
             ///</summary>
             
             services.AddSingleton<IGamesList, GamesList>();
+            services.AddSingleton<IUserList, UserList>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

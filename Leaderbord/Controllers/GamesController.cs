@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Leaderboard.Models;
 using Leaderbord.Dtos;
+using Leaderbord.Dtos.Dtos_Create;
 using Leaderbord.Extension_methods;
 using Leaderbord.Repositories;
 using Microsoft.AspNetCore.Mvc;
@@ -31,13 +32,27 @@ namespace Leaderbord.Controllers
         public ActionResult<GameDto> GetGame(Guid id)
         {
             var game = repository.GetGame(id);
-            if(game is null)
+            if (game is null)
             {
                 return NotFound();
             }
             return game.AsDto();
         }
 
-        
+        [HttpPost]
+        public ActionResult<GameDto> CreateGame(CreateGameDto gameDto)
+        {
+            Game game = new()
+            {
+                Id = Guid.NewGuid(),
+                Name = gameDto.Name,
+                YearOfRelease = gameDto.YearOfRelease,
+                consolesReleasedOn = gameDto.consolesReleasedOn
+            };
+            repository.CreateGame(game);
+
+            return CreatedAtAction(nameof(GetGame), new{id = game.Id}, game.AsDto());
+        }
+
     }
 }

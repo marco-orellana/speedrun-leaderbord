@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Leaderbord.enums;
 
 namespace Leaderbord.Dtos
 {
@@ -8,7 +9,8 @@ namespace Leaderbord.Dtos
         public Guid Id { get; init; }
         public string username { get; init; }
         public string Country { get; init; }
-        public List<SocialDto> socials{get; init;}
-        public DateTime AccountCreationDate { get; init; }
+        public List<SocialDto> socials { get; init; }
+        public DateTimeOffset AccountCreationDate { get; init; }
+        public AccountType type { get; init; }
     }
 }
