@@ -8,5 +8,6 @@ namespace Leaderbord.Repositories
     {
         Game GetGame(Guid id);
         IEnumerable<Game> GetGames();
+        void CreateGame(Game game);
     }
 }

@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace Leaderboard.Models
+namespace Leaderbord.Dtos
 {
-    public record Game
+    public record GameDto
     {
         public Guid Id { get; init; }
         public string Name { get; init; }
