@@ -1,8 +1,7 @@
 using Leaderboard.Models;
-using Leaderbord.Dtos;
-using Leaderbord.Models;
+using Leaderboard.Dtos;
 
-namespace Leaderbord.Extension_methods
+namespace Leaderboard.Extension_methods
 {
     public static class ExtensionsMethods
     {

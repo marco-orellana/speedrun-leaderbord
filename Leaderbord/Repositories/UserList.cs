@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Leaderbord.Models;
+using Leaderboard.Models;
+using Leaderboard.Dtos;
 
 namespace Leaderbord.Repositories
 {
@@ -14,7 +15,7 @@ namespace Leaderbord.Repositories
                 Id = Guid.NewGuid(),
                 username = "Gosfi",
                 Country = "Canada",
-                socials = new List<Dtos.SocialDto>(),
+                socials = new List<SocialDto>() { new SocialDto { socialMediaName = "Youtube", url = "https://www.youtube.com/" } },
                 AccountCreationDate = DateTimeOffset.UtcNow,
                 type = enums.AccountType.ADMIN
             }

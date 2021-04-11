@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Leaderboard.Models;
-using Leaderbord.Dtos;
-using Leaderbord.Dtos.Dtos_Create;
-using Leaderbord.Extension_methods;
+using Leaderboard.Dtos;
+using Leaderboard.Dtos.Dtos_Create;
+using Leaderboard.Extension_methods;
 using Leaderbord.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Leaderbord.Controllers
+namespace Leaderboard.Controllers
 {
     [ApiController]
     [Route("games")]

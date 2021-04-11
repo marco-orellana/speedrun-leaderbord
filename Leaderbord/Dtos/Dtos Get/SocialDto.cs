@@ -1,4 +1,4 @@
-namespace Leaderbord.Dtos
+namespace Leaderboard.Dtos
 {
     public record SocialDto
     {

@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Leaderbord.Dtos;
-using Leaderbord.Dtos.Dtos_Create;
-using Leaderbord.Extension_methods;
-using Leaderbord.Models;
+using Leaderboard.Dtos;
+using Leaderboard.Dtos.Dtos_Create;
+using Leaderboard.Extension_methods;
+using Leaderboard.Models;
 using Leaderbord.Repositories;
 using Microsoft.AspNetCore.Mvc;
 

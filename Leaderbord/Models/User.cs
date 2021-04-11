@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using Leaderbord.Dtos;
+using Leaderboard.Dtos;
 using Leaderbord.enums;
 
-namespace Leaderbord.Models
+namespace Leaderboard.Models
 {
     public record User
     {

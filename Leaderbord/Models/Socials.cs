@@ -1,4 +1,4 @@
-namespace Leaderbord.Models
+namespace Leaderboard.Models
 {
     public record Socials
     {

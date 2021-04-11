@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Leaderbord.Dtos.Dtos_Create
+namespace Leaderboard.Dtos.Dtos_Create
 {
     public record CreateGameDto
     {

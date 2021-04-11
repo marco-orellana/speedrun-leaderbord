@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Leaderbord.Dtos
+namespace Leaderboard.Dtos
 {
     public record GameDto
     {

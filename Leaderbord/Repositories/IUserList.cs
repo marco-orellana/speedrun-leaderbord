@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using Leaderbord.Models;
+using Leaderboard.Models;
 
 namespace Leaderbord.Repositories
 {
