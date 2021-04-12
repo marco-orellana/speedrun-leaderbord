@@ -1,5 +1,7 @@
 using Leaderboard.Models;
 using Leaderboard.Dtos;
+using Leaderbord.Models;
+using Leaderbord.Dtos.Dtos_Get;
 
 namespace Leaderboard.Extension_methods
 {
@@ -34,6 +36,41 @@ namespace Leaderboard.Extension_methods
             {
                 socialMediaName = social.socialMediaName,
                 url = social.url
+            };
+        }
+
+        public static RunDto AsDto(this Run run)
+        {
+            return new RunDto()
+            {
+                game = run.game,
+                user = run.user,
+                category = run.category,
+                date = run.date,
+                hours = run.hours,
+                minutes = run.minutes,
+                seconds = run.seconds
+            };
+        }
+
+        public static CategoryDto AsDto(this Category category)
+        {
+            return new CategoryDto()
+            {
+                AssociatedGame = category.AssociatedGame,
+                categoryName = category.categoryName,
+                categoryRules = category.categoryRules,
+                runs = category.runs
+            };
+        }
+
+        public static GamePageDto AsDto(this GamePage gamePage)
+        {
+            return new GamePageDto()
+            {
+                game = gamePage.game,
+                Categories = gamePage.Categories,
+                Moderators = gamePage.Moderators
             };
         }
     }
