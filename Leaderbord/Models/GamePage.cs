@@ -8,7 +8,7 @@ namespace Leaderboard.Models
     {
         public Guid Id { get; init; }
         public Game game { get; init; }
-        public List<CategoryDto> Categories { get; set; }
-        public List<UserDto> Moderators { get; init; }
+        public List<Category> Categories { get; set; }
+        public List<User> Moderators { get; init; }
     }
 }

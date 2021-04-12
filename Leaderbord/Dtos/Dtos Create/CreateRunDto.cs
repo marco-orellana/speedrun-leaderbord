@@ -1,9 +1,9 @@
 using System;
-using Leaderboard.Models;
+using Leaderboard.Dtos;
 
-namespace Leaderboard.Dtos
+namespace Leaderbord.Dtos.Dtos_Create
 {
-    public record RunDto
+    public record CreateRunDto
     {
         public GameDto game { get; init; }
         public UserDto user { get; init; }
