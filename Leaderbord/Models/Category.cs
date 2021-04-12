@@ -6,6 +6,7 @@ namespace Leaderboard.Models
 {
     public record Category
     {
+        public Guid Id { get; init; }
         public GameDto AssociatedGame { get; init; }
         public string categoryName { get; init; }
         public string categoryRules { get; init; }

@@ -5,6 +5,7 @@ namespace Leaderbord.Models
 {
     public record Run
     {
+        public Guid Id { get; init; }
         public Game game { get; init; }
         public User user { get; init; }
         public Category category { get; init; }
