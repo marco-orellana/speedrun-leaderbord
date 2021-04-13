@@ -46,7 +46,6 @@ namespace Leaderboard.Extension_methods
                 game = run.game,
                 user = run.user,
                 category = run.category,
-                date = run.date,
                 hours = run.hours,
                 minutes = run.minutes,
                 seconds = run.seconds
