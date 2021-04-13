@@ -31,9 +31,12 @@ namespace Leaderbord
             ///services.AddSingleton takes an interface and a class that implements the interface to work
             /// after that, the add controller method gives the interface reference to the controller constructor 
             ///</summary>
-            
+            #region AddSingletons
             services.AddSingleton<IGamesList, GamesList>();
             services.AddSingleton<IUserList, UserList>();
+            services.AddSingleton<IRunList, RunList>();
+            #endregion
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
